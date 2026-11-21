@@ -1,0 +1,6 @@
+node_modules
+dist
+__pycache__
+*.blend1
+.vercel
+public/mediapipe/wasm

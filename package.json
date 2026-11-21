@@ -1,0 +1,25 @@
+{
+  "name": "europa-hack",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run prepare-camera && vite",
+    "build": "npm run prepare-camera && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build:artifact": "npm run build && node scripts/build-artifact.mjs",
+    "prepare-camera": "node scripts/copy-mediapipe.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.2.3",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}
