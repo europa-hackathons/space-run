@@ -4,6 +4,8 @@ A 90 second space game built for the Europa hackathon. Fly forward, dodge the as
 
 Play it: https://space-run-game.vercel.app
 
+Built by: Noah, and Filip under supervision from Anton
+
 ## Controls
 
 | Mode | Steer | Fire | Start |
